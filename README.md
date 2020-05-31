@@ -17,3 +17,6 @@ To change the threshold of map updation, i.e. changing the limit under which the
 4.	In the file home/catkin__ws/src/hector_slam/hector_mapping/src/HectorMappingRos.cpp
 and home/catkin__ws/src/hrctor_slam/hector_mapping/launch/mapping_default.launch
 To change the threshold of the angle which affects the sensitivity of the map, the value of map_update_angle_thresh must be changed from 0.9 in HectorMappingRos.cpp and from 0.06 from mapping_default.launch to a larger value.
+
+Footnotes: 
+  All the developments were done in Ubuntu 18.04 LTS which supports ROS Melodic.
