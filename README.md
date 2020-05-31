@@ -2,7 +2,7 @@
 Hector SLAM optimized for closed spaces with obstacle recognition and avoidance
 
 This repository is a modification of the widely used Hector SLAM package for ROS https://github.com/tu-darmstadt-ros-pkg/hector_slam
-The original version is enough for most of the use cases but in situations when the LIDAR does not have an on-board IMU in case of some cheaper versions of RP-LIDARs a suddden chnage in angle or an uneven surface can lead to the map getting fuzzy and incoherent. 
+The original version is enough for most of the use cases but in situations when the LIDAR does not have an on-board IMU such in the case of some cheaper versions of RP-LIDARs, a suddden chnage in angle or an uneven surface can lead to the map getting fuzzy and incoherent. 
 The files have been modified to also allow some degree of obstacle recognition which can be seen on terminal which runs the mapping nodes.
 
 The details of the modifies file are as follows:
